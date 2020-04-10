@@ -3,6 +3,7 @@ date_default_timezone_set('Asia/Jakarta');
 include "function.php";
 echo "\e[96m_________________\e[95m".date('[d-m-Y] [H:i:s]')."\e[96m________________\n";
 	goto ulang;
+ulang:
 // function change(){
         $nama = nama();
         $email = str_replace(" ", "", $nama) . mt_rand(100, 999);
