@@ -2,6 +2,7 @@
 date_default_timezone_set('Asia/Jakarta');
 include "function.php";
 echo "\e[96m_________________\e[95m".date('[d-m-Y] [H:i:s]')."\e[96m________________\n";
+	goto ulang;
 // function change(){
         $nama = nama();
         $email = str_replace(" ", "", $nama) . mt_rand(100, 999);
@@ -190,7 +191,8 @@ echo "\e[96m_________________\e[95m".date('[d-m-Y] [H:i:s]')."\e[96m____________
          echo color("red","-] Nomor udah keregist.");
          echo"\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n";
          echo color("purple","!] Coba Nomer Fresh Lainnya \n");
-         }
+         goto ulang;
+	 }
 //  }
 
 // echo change()."\n";
