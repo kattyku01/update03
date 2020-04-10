@@ -190,7 +190,6 @@ echo "\e[96m_________________\e[95m".date('[d-m-Y] [H:i:s]')."\e[96m____________
          echo color("red","-] Nomor udah keregist.");
          echo"\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n";
          echo color("purple","!] Coba Nomer Fresh Lainnya \n");
-         goto ulang;
          }
 //  }
 
